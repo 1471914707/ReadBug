@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_comment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="我的评论" />
+        <item
+            android:id="@+id/nav_modify"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="修改信息" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="文化商城" />
+        <item
+            android:id="@+id/nav_version"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="版本信息\nv1.0.0" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="退出登录" />
+    </group>
+
+
+</menu>

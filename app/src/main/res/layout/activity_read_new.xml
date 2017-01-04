@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingRight="4dp"
+        android:paddingLeft="4dp"
+        android:layout_height="60dp"
+        android:background="#66CD00">
+        <Button
+            android:id="@+id/New_Back"
+            android:background="@mipmap/back"
+            android:layout_marginLeft="5dp"
+            android:layout_height="33dp"
+            android:layout_width="37dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/readbug"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+<!--
+        <Button
+            android:id="@+id/share"
+            android:layout_width="0dp"
+            android:layout_height="13dp"
+            android:layout_weight="0.96"
+            android:background="@mipmap/point"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="5dp" />-->
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp">
+    <LinearLayout
+        android:id="@+id/Mian_layout"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/New_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:text="李克强主持召开国务院常务会议"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/New_Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016-12-30 12:00"/>
+            <TextView
+                android:id="@+id/New_author"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#15a0f8"
+                android:text="南方都市报"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeded"
+            />
+
+            <TextView
+                android:id="@+id/New_Content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"/>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

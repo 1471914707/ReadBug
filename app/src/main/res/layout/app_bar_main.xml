@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.testing.readbug.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#66CD00"
+            android:title="读虫"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_study"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="#EEC900"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@mipmap/student" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_sport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="#CD3700"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@mipmap/sport" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_life"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="#00B2EE"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@mipmap/life" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="#44c86d"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@mipmap/index" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="#44c86d"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_dialer" />
+
+</android.support.design.widget.CoordinatorLayout>
